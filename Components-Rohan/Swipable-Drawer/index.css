@@ -1,0 +1,31 @@
+body{
+     padding: 0px;
+     margin: 0px;
+     font-size: 14px;
+}
+
+.right-drawer{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     position: fixed;
+     right: 0%;
+     top: 0%;
+     width: 0%;
+     height: 100%;
+     background-color: dodgerblue;
+     color: aliceblue;
+     overflow: hidden;
+     transition: width 2s;
+}
+
+.left-drawer{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     position: fixed;
+     left: 0%;
+     top: 0%;
+     width: 0%;
+     height: 100%;
+     background-color: dodgerblue;
+     color: aliceblue;
+     overflow: hidden;
+     transition: width 2s;
+}
